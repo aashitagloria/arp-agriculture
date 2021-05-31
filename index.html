@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ARP Agriculture">
+  <meta name="Aashita" content="DV J component">
+  <link rel="shortcut icon" href="img/favicon.png">
+
+  <title>ARP Agriculture</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- bootstrap theme -->
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <!--external css-->
+  <!-- font icon -->
+  <link href="css/elegant-icons-style.css" rel="stylesheet" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- full calendar css-->
+  <link href="assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
+  <link href="assets/fullcalendar/fullcalendar/fullcalendar.css" rel="stylesheet" />
+  <!-- easy pie chart-->
+  <link href="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css" rel="stylesheet" type="text/css" media="screen" />
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+  <link href="css/jquery-jvectormap-1.2.2.css" rel="stylesheet">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/fullcalendar.css">
+  <link href="css/widgets.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet" />
+  <link href="css/xcharts.min.css" rel=" stylesheet">
+  <link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- container section start -->
+  <section id="container" class="">
+
+
+    <header class="header dark-bg">
+      <div class="toggle-nav">
+        <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+      </div>
+
+      <!--logo start-->
+      <a href="index.html" class="logo">ARP <span class="lite">Agriculture</span></a>
+      <!--logo end-->
+
+      
+
+      <div class="top-nav notification-row">
+        <!-- notificatoin dropdown start-->
+        <ul class="nav pull-right top-menu">
+
+          <!-- task notificatoin start -->
+          <li id="task_notificatoin_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="icon-task-l"></i>
+                            <span class="badge bg-important">5</span>
+                        </a>
+            <ul class="dropdown-menu extended tasks-bar">
+              <div class="notify-arrow notify-arrow-blue"></div>
+              <li>
+                <p class="blue">Click down below to check the top <u>FIVE</u> crops grown in India</p>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="task-info">
+                    <div class="desc">Wheat </div>
+                    <div class="percent">33.33%</div>
+                  </div>
+                  <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                      <span class="sr-only">90% Complete (success)</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="task-info">
+                    <div class="desc">
+                      Sugarcane
+                    </div>
+                    <div class="percent">27.77%</div>
+                  </div>
+                  <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                      <span class="sr-only">30% Complete (warning)</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="task-info">
+                    <div class="desc">Rice</div>
+                    <div class="percent">16.66%</div>
+                  </div>
+                  <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                      <span class="sr-only">80% Complete</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="task-info">
+                    <div class="desc">Gram</div>
+                    <div class="percent">13.88%</div>
+                  </div>
+                  <div class="progress progress-striped">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%">
+                      <span class="sr-only">78% Complete (danger)</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="task-info">
+                    <div class="desc">Maize</div>
+                    <div class="percent">8.33%</div>
+                  </div>
+                  <div class="progress progress-striped active">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                      <span class="sr-only">50% Complete</span>
+                    </div>
+                  </div>
+
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          
+        
+        <!-- notificatoin dropdown end-->
+      </div>
+    </header>
+    <!--header end-->
+
+    <!--sidebar start-->
+    <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu">
+          <li class="active">
+            <a class="" href="index.html">
+                          
+                          <span>State Wise Analysis</span>
+                      </a>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+                          
+                          <span>Crop Based Analysis</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
+            <ul class="sub">
+              <li><a class="" href="production_rate.html">Production Rate</a></li>
+              <li><a class="" href="yield.html">Yield</a></li>
+              <li><a class="" href="cultivation_cost.html">Cultivation Cost</a></li>
+              <li><a class="" href="production_area.html">Production Area</a></li>
+
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="season.html" class="">
+              
+                          
+                          <span>Season Wise Analysis</span>
+                          
+                          
+                          
+                      </a>
+            
+          </li>
+          <li>
+            <a class="" href="periodwise.html">
+                        
+                          <span>Period Wise Analysis</span>
+                      </a>
+          </li>
+          <li>
+            <a class="" href="comparison.html">
+                          
+                          <span>Comparison Plots</span>
+
+                      </a>
+
+          </li>
+
+          <li class="sub-menu">
+            <a href="3Dplot.html" class="">
+                          
+                          <span>3D Plots</span>
+                          
+                      </a>
+            
+          </li>
+          <li class="sub-menu">
+            <a href="dataset.html" class="">
+                          
+                          <span>DataSet</span>
+                          
+                      </a>
+            
+          </li>
+
+          
+
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+    <!--sidebar end-->
+
+    <!--main content start-->
+    <section id="main-content">
+      <section class="wrapper">
+        <!--overview start-->
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="page-header"><i class="fa fa-laptop"></i> Agricultural Crop Production In India</h3>
+            
+          </div>
+        </div>
+
+        
+
+          
+
+        </div>
+        <!--/.row-->
+
+
+        <div class="row">
+          <div class="col-lg-9 col-md-12">
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h2><i class="fa fa-map-marker red"></i><strong>State Wise Area Under Cultivation In India</strong></h2>
+                <div class="panel-actions">
+                  <a href="index.html#" class="btn-setting"><i class="fa fa-rotate-right"></i></a>
+                  <a href="index.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
+                  <a href="index.html#" class="btn-close"><i class="fa fa-times"></i></a>
+                </div>
+              </div>
+              <div class="panel-body-map">
+                <img src ="img/1.png" height="400" width="790">
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- List starts -->
+            <ul class="today-datas">
+              <!-- List #1 -->
+              <li>
+                <!-- Graph -->
+                <div><span id="todayspark1" class="spark"></span></div>
+                <!-- Text -->
+                <div class="datas-text">11,500 Hectre under cultivation</div>
+              </li>
+              <li>
+                <div><span id="todayspark2" class="spark"></span></div>
+                <div class="datas-text">15,000 tons of production rate</div>
+              </li>
+              <li>
+                <div><span id="todayspark3" class="spark"></span></div>
+                <div class="datas-text">30.55% Increase in Crop Yield</div>
+              </li>
+              <li>
+                <div><span id="todayspark4" class="spark"></span></div>
+                <div class="datas-text">$16,00 Cost of Cultivation</div>
+              </li>
+              <li>
+                <div><span id="todayspark5" class="spark"></span></div>
+                <div class="datas-text">12,000000 farmers employed over 10 years</div>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+
+        
+          <!--/col-->
+          <div class="col-lg-9 col-md-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h2><i class="fa fa-flag-o red"></i><strong>State Wise Crop Yield</strong></h2>
+                <div class="panel-actions">
+                  <a href="index.html#" class="btn-setting"><i class="fa fa-rotate-right"></i></a>
+                  <a href="index.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
+                  <a href="index.html#" class="btn-close"><i class="fa fa-times"></i></a>
+                </div>
+              </div>
+              <img src="img/3.png" height="400" width="790">
+            </div>
+            </div>
+            
+
+              <div class="col-lg-9 col-md-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h2><i class="fa fa-flag-o red"></i><strong>State Wise Cultivation Cost - Per Hectre</strong></h2>
+                    <div class="panel-actions">
+                      <a href="index.html#" class="btn-setting"><i class="fa fa-rotate-right"></i></a>
+                      <a href="index.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
+                      <a href="index.html#" class="btn-close"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <img src="img/6.png" height="400" width="790">
+                </div>
+              </div>
+
+                  <div class="col-lg-9 col-md-12">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h2><i class="fa fa-flag-o red"></i><strong>State Wise Cultivation Cost - Per Quintal</strong></h2>
+                        <div class="panel-actions">
+                          <a href="index.html#" class="btn-setting"><i class="fa fa-rotate-right"></i></a>
+                          <a href="index.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
+                          <a href="index.html#" class="btn-close"><i class="fa fa-times"></i></a>
+                        </div>
+                      </div>
+                      <img src="img/11.png" height="400" width="790">
+                    </div>
+                  </div>
+
+
+
+        <!-- statics end -->
+
+                </div>
+                <div class="widget-foot">
+                  <!-- Footer goes here -->
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- project team & activity end -->
+
+      </section>
+      <div class="text-right">
+        <div class="credits">
+
+          Made with<span style="font-size:150%;color:red;"> &hearts; </span>by Aashita, Priyanshi, Rachit<span style="font-size:150%;color:rgb(14, 12, 12);"> &hearts; </span>
+        </div>
+      </div>
+    </section>
+    <!--main content end-->
+  </section>
+  <!-- container section start -->
+
+  <!-- javascripts -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-ui-1.10.4.min.js"></script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+  <!-- bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- nice scroll -->
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+  <!-- charts scripts -->
+  <script src="assets/jquery-knob/js/jquery.knob.js"></script>
+  <script src="js/jquery.sparkline.js" type="text/javascript"></script>
+  <script src="assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <!-- jQuery full calendar -->
+  <<script src="js/fullcalendar.min.js"></script>
+    <!-- Full Google Calendar - Calendar -->
+    <script src="assets/fullcalendar/fullcalendar/fullcalendar.js"></script>
+    <!--script for this page only-->
+    <script src="js/calendar-custom.js"></script>
+    <script src="js/jquery.rateit.min.js"></script>
+    <!-- custom select -->
+    <script src="js/jquery.customSelect.min.js"></script>
+    <script src="assets/chart-master/Chart.js"></script>
+
+    <!--custome script for all page-->
+    <script src="js/scripts.js"></script>
+    <!-- custom script for this page-->
+    <script src="js/sparkline-chart.js"></script>
+    <script src="js/easy-pie-chart.js"></script>
+    <script src="js/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="js/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="js/xcharts.min.js"></script>
+    <script src="js/jquery.autosize.min.js"></script>
+    <script src="js/jquery.placeholder.min.js"></script>
+    <script src="js/gdp-data.js"></script>
+    <script src="js/morris.min.js"></script>
+    <script src="js/sparklines.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/jquery.slimscroll.min.js"></script>
+    <script>
+      //knob
+      $(function() {
+        $(".knob").knob({
+          'draw': function() {
+            $(this.i).val(this.cv + '%')
+          }
+        })
+      });
+
+      //carousel
+      $(document).ready(function() {
+        $("#owl-slider").owlCarousel({
+          navigation: true,
+          slideSpeed: 300,
+          paginationSpeed: 400,
+          singleItem: true
+
+        });
+      });
+
+      //custom select box
+
+      $(function() {
+        $('select.styled').customSelect();
+      });
+
+      /* ---------- Map ---------- */
+      $(function() {
+        $('#map').vectorMap({
+          map: 'world_mill_en',
+          series: {
+            regions: [{
+              values: gdpData,
+              scale: ['#000', '#000'],
+              normalizeFunction: 'polynomial'
+            }]
+          },
+          backgroundColor: '#eef3f7',
+          onLabelShow: function(e, el, code) {
+            el.html(el.html() + ' (GDP - ' + gdpData[code] + ')');
+          }
+        });
+      });
+    </script>
+
+</body>
+
+</html>
